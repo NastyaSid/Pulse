@@ -54,7 +54,22 @@
             justify-content: space-around;
         }
     }
+    .reviews {
+        &__item {
+            padding-left: 15px;
+        }
+    }
+    .footer {
+        &__map {
+            height: 600px;
+        }
+        &__info {
+            width: 440px;
+            height: 250px;
+        }
+    }
 }
+
 @media (max-width: 767px) {
     .promo {
         padding: 25px 20px 50px 20px;
@@ -173,6 +188,45 @@
             &_mini {
                 width: 125px;
             }
+        }
+    }
+    .reviews {
+        .title {
+            font-size: 28px;
+        }
+        &__item {
+            margin-top: 45px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        img {
+            width: 140px;
+            height: 140px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 360px;
+            height: 200px;
+            padding: 30px 48px 30px 48px;
+        }
+        &__addr {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 30px;
+        }
+        &__phone {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 30px;
+        }
+        &__social-item {
+            width: 50px;
+            height: 50px;
         }
     }
 }
@@ -297,6 +351,39 @@
                     margin-bottom: 8px;
                 }
             }
+        }
+    }
+    .reviews {
+        .title {
+            font-size: 22px;
+        }
+        &__item {
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-left: 0;
+        }
+        &__text {
+            margin: 10px 0 0 30px;
+            padding-right: 30px;
+            text-align: center;
+        }
+        img {
+            width: 140px;
+            height: 140px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 319px;
+            padding: 25px 40px 25px 40px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+        }
+        img {
+            height: 20px;
         }
     }
 }
